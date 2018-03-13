@@ -1,0 +1,13 @@
+F:\EnergyHarvest\SensorLogs\SensorLogs\SensorLogs\bin\Debug\netstandard2.0\SensorLogs.deps.json
+F:\EnergyHarvest\SensorLogs\SensorLogs\SensorLogs\bin\Debug\netstandard2.0\SensorLogs.dll
+F:\EnergyHarvest\SensorLogs\SensorLogs\SensorLogs\obj\Debug\netstandard2.0\SensorLogs.csproj.CoreCompileInputs.cache
+F:\EnergyHarvest\SensorLogs\SensorLogs\SensorLogs\obj\Debug\netstandard2.0\SensorLogs.App.xaml.g.cs
+F:\EnergyHarvest\SensorLogs\SensorLogs\SensorLogs\obj\Debug\netstandard2.0\SensorLogs.MainPage.xaml.g.cs
+F:\EnergyHarvest\SensorLogs\SensorLogs\SensorLogs\obj\Debug\netstandard2.0\SensorLogs.AssemblyInfoInputs.cache
+F:\EnergyHarvest\SensorLogs\SensorLogs\SensorLogs\obj\Debug\netstandard2.0\SensorLogs.AssemblyInfo.cs
+F:\EnergyHarvest\SensorLogs\SensorLogs\SensorLogs\bin\Debug\netstandard2.0\SensorLogs.pdb
+F:\EnergyHarvest\SensorLogs\SensorLogs\SensorLogs\obj\Debug\netstandard2.0\SensorLogs.dll
+F:\EnergyHarvest\SensorLogs\SensorLogs\SensorLogs\obj\Debug\netstandard2.0\SensorLogs.pdb
+F:\EnergyHarvest\SensorLogs\SensorLogs\SensorLogs\obj\Debug\netstandard2.0\SensorLogs.Setting.xaml.g.cs
+F:\EnergyHarvest\SensorLogs\SensorLogs\SensorLogs\obj\Debug\netstandard2.0\SensorLogs.FileOperation.xaml.g.cs
+F:\EnergyHarvest\SensorLogs\SensorLogs\SensorLogs\obj\Debug\netstandard2.0\SensorLogs.csprojResolveAssemblyReference.cache

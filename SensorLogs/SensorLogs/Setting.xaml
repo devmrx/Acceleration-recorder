@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SensorLogs.Setting"
+             Title="Настройки">
+    
+    <ContentPage.Content>
+
+        <TableView >
+            <TableView.Root>
+                <TableRoot>
+                    <TableSection Title="Настройки приложения">
+                        <SwitchCell OnChanged="SwAdd_Time" x:Name="SwAdd" Text="Дописывать время к каждой записи" />
+                    </TableSection>
+
+                    <TableSection>
+                        <ViewCell Tapped="SpeedR_Click">
+                            <ViewCell.View>
+                                <StackLayout Padding="15,0,15,0" Orientation="Horizontal" HorizontalOptions="FillAndExpand" x:Name="StackL"  >
+                                    <Label VerticalOptions="Center" x:Name="header" Text="Скорость сбора данных" FontSize="Medium"  />
+
+                                    <Picker x:Name="picker" SelectedIndexChanged="picker_SelectedIndexChanged" IsVisible="False" Title="Выберите скорость считывания">
+                                        <Picker.Items>
+                                            <x:String>Максимальная (0)</x:String>
+                                            <x:String>Высокая (20)</x:String>
+                                            <x:String>Средняя (60)</x:String>
+                                            <x:String>Низкая (200)</x:String>
+                                        </Picker.Items>
+                                    </Picker>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </TableSection>
+                </TableRoot>
+            </TableView.Root>
+        </TableView>
+
+    </ContentPage.Content>
+</ContentPage>

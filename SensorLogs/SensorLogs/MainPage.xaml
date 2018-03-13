@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SensorLogs"
+             x:Class="SensorLogs.MainPage">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="12,12,12,12" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <Label Text=""></Label>
+                <Entry x:Name="Posit"></Entry>
+                
+                <Button x:Name="startLongRunningTask" Text="Start"></Button>
+                <Button x:Name="stopLongRunningTask" Text="Stop"></Button>
+                <Label x:Name="Lbl_Count"></Label>
+
+
+
+                <Label x:Name="Lbl_Sp" Text="" HorizontalOptions="CenterAndExpand" TextColor="Black" FontSize="Medium" ></Label>
+                <ListView x:Name="filesList" Grid.Row="2"  ItemSelected="FileSelect">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding}">
+                                <TextCell.ContextActions>
+
+                                </TextCell.ContextActions>
+                            </TextCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+
+                <Label x:Name="Lbl1"></Label>
+            </StackLayout>
+        </ScrollView>
+
+
+    </ContentPage.Content>
+
+</ContentPage>
